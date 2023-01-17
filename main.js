@@ -1,4 +1,3 @@
-import { DateTime, Interval } from "luxon";
 import './style.css'
 let homeCount = 0;
 let awayCount = 0;
