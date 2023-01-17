@@ -142,6 +142,10 @@ function startNewGame(){
 
 document.querySelector('#app').innerHTML = `
   <div id="wrapper">
+    <div id="app-title-container">
+      <h1>Couples "Debate"</h1>
+      <p>Who will win this arguement, you decide!</p>
+    </div>
     <div id="stretch-goals-container">
       <div id="home-fouls-container" class="fouls-flexed">
         <div id="home-text-container">
