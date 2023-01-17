@@ -132,6 +132,11 @@ function startNewGame(){
   document.querySelectorAll('.fouls').forEach(x=>x.checked = false)
   document.getElementById('home-score-div').classList.remove('winning', 'losing')
   document.getElementById('away-score-div').classList.remove('winning', 'losing')
+  clearInterval(nInterId);
+  updateTimer(5, 0)
+  nInterId = null;
+  isRunning = false;
+  resetTimer()
 }
 
 
